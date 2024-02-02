@@ -1,0 +1,12 @@
+google==3.0.0
+git+https://github.com/Augmatrix-ai/augmatrixOS.git
+PyMuPDF==1.23.20
+hyper[h2]
+pyopenssl
+twisted[http2]==17.1.0
+bson
+pyarrow
+service-identity
+msgpack
+gunicorn
+httpx[http2]

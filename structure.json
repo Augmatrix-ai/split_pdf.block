@@ -1,0 +1,36 @@
+{
+    "algoType": "Splitter",
+    "outputs_schema": {
+        "pdf": {
+            "title": "PDF",
+            "is_required": true,
+            "type_text": "PDF"
+        },
+        "image": {
+            "title": "Image",
+            "is_required": true,
+            "type_text": "Image"
+        }
+    },
+    "inputs_schema": {
+        "pdf": {
+            "title": "PDF",
+            "is_required": true,
+            "type_text": "PDF"
+        }
+    },
+    "block_properties": {
+    },
+    "func_args_schema": {
+        "properties": {
+            "title": "block properties Json",
+            "is_required": true,
+            "type_text": "JSON"
+        },
+        "credentials": {
+            "title": "key value credentials",
+            "is_required": true,
+            "type_text": "JSON"
+        }
+    }
+}
