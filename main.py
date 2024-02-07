@@ -59,7 +59,7 @@ class SplitPDFTask(ServiceRunner):
 
 if __name__ == "__main__":
     ServerManager(SplitPDFTask(logger=None)).start(
-        host="localhost",
+        host="0.0.0.0",
         port=8082,
         # private_key="certificates/private.pem",
         # cert_key="certificates/cert.pem"
