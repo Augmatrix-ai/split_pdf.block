@@ -14,7 +14,7 @@ def main():
 
         # Call the function with the specified inputs, properties, and credentials
         outputs = client.call_function(
-            structure_path="structure.json",
+            structure="structure.json",
             func_args=properties,
             inputs=inputs,
             credentials=credentials
